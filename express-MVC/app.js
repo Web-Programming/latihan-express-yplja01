@@ -41,3 +41,10 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+const mahasiswaRouter = require('./app_server/router/mahasiswa');
+app.use = ('../app_server/router/mahasiswa', mahasiswaRouter);
+
+app.listen(3000, ()=> {
+  console.log('Server listening on port 3000');
+});
