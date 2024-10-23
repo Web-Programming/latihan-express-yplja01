@@ -13,4 +13,4 @@ mongoose.connection.on("error", (error) => {
 mongoose.connection.on("disconnected", () => {
     console.log("Disconnected from MongoDB");
 });
-const Mahasiswa = require("./models/mahasiswa");
+require("./mahasiswa");
