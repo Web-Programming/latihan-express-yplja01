@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Mahasiwa = mongoose.model("Mahasiswa");
+const Mahasiswa = mongoose.model("Mahasiswa");
 
 //untuk menghandle request get all mahasiswa
 const index = (req, res, next) => {

@@ -19,4 +19,4 @@ let schemaMhs = new mongoose.Schema({
 });
 
 //create Model from Schema
-mongoose.model("Mahasiswa", schemaMahasiswa);
+mongoose.model("Mahasiswa", schemaMhs);
